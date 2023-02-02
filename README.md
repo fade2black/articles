@@ -1,24 +1,17 @@
 # README
+This project is created for experimenting with `Github Actions`
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Basics of Github Actions
 
-Things you may want to cover:
+Consists of three main parts:
+- Events
+- Worklflows
+- Actions
 
-* Ruby version
+Events trigger Workflows. Workflows use Actions.
 
-* System dependencies
+## Events
 
-* Configuration
+## Worklflows
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Actions
