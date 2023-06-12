@@ -1,7 +1,9 @@
 name: "Test and linter"
 on:
-  push:
+  merge_group:
     branches: [ "development" ]
+  # push:
+  #   branches: [ "development" ]
   # pull_request:
   #   branches: [ "development", "development/**" ]
 jobs:
