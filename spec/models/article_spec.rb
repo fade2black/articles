@@ -6,6 +6,6 @@ RSpec.describe Article do
 
     it { is_expected.to validate_presence_of(:title) }
     it { is_expected.to validate_presence_of(:body) }
-    #it { is_expected.to validate_presence_of(:foobar) }
+    it { is_expected.to validate_presence_of(:foobar) }
   end
 end
