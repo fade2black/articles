@@ -3,9 +3,9 @@ on:
   merge_group:
     branches: [ "development" ]
   # push:
-  #   branches: [ "development" ]
-  # pull_request:
   #   branches: [ "development", "development/**" ]
+  pull_request:
+    branches: [ "development" ]
 jobs:
   test:
     name: rspec
