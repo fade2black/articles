@@ -1,11 +1,11 @@
 name: "Test and linter"
 on:
-  merge_group:
-    branches: [ "development" ]
-  # push:
-  #   branches: [ "development", "development/**" ]
-  pull_request:
-    branches: [ "development" ]
+  # merge_group:
+  #   branches: [ "development" ]
+  push:
+    branches: [ "development", "development/**" ]
+  # pull_request:
+  #   branches: [ "development" ]
 jobs:
   test:
     name: rspec
